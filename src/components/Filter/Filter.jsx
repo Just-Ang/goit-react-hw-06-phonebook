@@ -8,7 +8,7 @@ const Filter = () => {
   const changeFilter = e => {
     const inputValue = e.currentTarget.value;
     dispatch(filterContact(inputValue));
-    console.log(inputValue);
+    //console.log(inputValue);
   };
   return (
     <label className={css.label}>
